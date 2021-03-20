@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @wait_queue.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @wait_queue.description %>
+</p>
+
+<p>
+  <strong>Destination:</strong>
+  <%= @wait_queue.destination %>
+</p>
+
+<p>
+  <strong>Link queue:</strong>
+  <%= @wait_queue.link_queue %>
+</p>
+
+<p>
+  <strong>Link subscribe:</strong>
+  <%= @wait_queue.link_subscribe %>
+</p>
+
+<%= link_to 'Edit', edit_wait_queue_path(@wait_queue) %> |
+<%= link_to 'Back', wait_queues_path %>
