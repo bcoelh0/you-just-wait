@@ -20,8 +20,8 @@
         <td><%= wait_queue.name %></td>
         <td><%= wait_queue.description %></td>
         <td><%= wait_queue.destination %></td>
-        <td><%= wait_queue.link_queue %></td>
-        <td><%= wait_queue.link_subscribe %></td>
+        <td><%= wait_queue.wait_queue_path %></td>
+        <td><%= wait_queue.subscription_path %></td>
         <td><%= link_to 'Show', wait_queue %></td>
         <td><%= link_to 'Edit', edit_wait_queue_path(wait_queue) %></td>
         <td><%= link_to 'Destroy', wait_queue, method: :delete, data: { confirm: 'Are you sure?' } %></td>

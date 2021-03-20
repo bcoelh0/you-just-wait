@@ -17,12 +17,12 @@
 
 <p>
   <strong>Link queue:</strong>
-  <%= @wait_queue.link_queue %>
+  <%= @wait_queue.wait_queue_path %>
 </p>
 
 <p>
   <strong>Link subscribe:</strong>
-  <%= @wait_queue.link_subscribe %>
+  <%= @wait_queue.subscription_path %>
 </p>
 
 <%= link_to 'Edit', edit_wait_queue_path(@wait_queue) %> |
